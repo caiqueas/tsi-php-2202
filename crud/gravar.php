@@ -1,5 +1,8 @@
 <?php
 
+//Controle de acesso/sessão
+require_once '../controleDeSessao/controle.php';
+
 //Search the code that conects into database
 require_once '../bancoDeDados/conecta.php';
 
